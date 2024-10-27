@@ -1,0 +1,54 @@
+.overlay{
+    background-color: rgb(183, 183, 183);
+    position: fixed;
+    inset: 0;
+    opacity: 0.7;
+}
+.overlay-none{
+    background-color: none;
+}
+.modals{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(242, 177, 130);
+    padding: 50px;
+    transition: all 1s ease;
+    display: block;
+    border-radius: 10px;
+}
+/* .modals-none{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    display: none;
+} */
+.name-sec{
+    margin: 10px;
+}
+.email-sec{
+    margin: 10px;
+}
+h1{
+    margin: 2px;
+}
+.name{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+.email{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+.btn{
+    padding:8px 20px;
+    font-size: 15px;
+    background-color: blue;
+    color: white ;
+    border-radius: 5px;
+    border: none;
+}
