@@ -35,6 +35,7 @@ function Form() {
          toast.success("Data Entered Successfully")
          setTimeout(() => {
             navigate('/showcontact')
+             dispatch(ContactData(data))
          }, 2000);
         
          setdata({})
